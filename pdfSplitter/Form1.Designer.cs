@@ -277,7 +277,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(20, 64);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(132, 199);
+            this.listBox1.Size = new System.Drawing.Size(132, 30);
             this.listBox1.TabIndex = 4;
             // 
             // numericUpDown2
@@ -353,9 +353,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(158, 64);
+            this.button1.Location = new System.Drawing.Point(157, 64);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(46, 23);
+            this.button1.Size = new System.Drawing.Size(46, 28);
             this.button1.TabIndex = 6;
             this.button1.Text = "Quitar";
             this.button1.UseVisualStyleBackColor = true;
