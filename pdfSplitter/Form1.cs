@@ -17,7 +17,17 @@ namespace pdfSplitter
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void btnBuscarOrigen_Click(object sender, EventArgs e)
+        {
+            openFileDialog.ShowDialog();
+        }
+
+        private void btnBuscarDestino_Click(object sender, EventArgs e)
+        {
+            folderBrowserDialog.ShowDialog();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }

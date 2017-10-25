@@ -1,1 +1,10 @@
 c:\users\20137306\documents\visual studio 2015\Projects\pdfSplitter\pdfSplitter\bin\Debug\pdfSplitter.exe.config
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\bin\Debug\pdfSplitter.exe.config
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\bin\Debug\pdfSplitter.exe
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\bin\Debug\pdfSplitter.pdb
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.csprojResolveAssemblyReference.cache
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.Form1.resources
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.Properties.Resources.resources
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.csproj.GenerateResource.Cache
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.exe
+C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.pdb
