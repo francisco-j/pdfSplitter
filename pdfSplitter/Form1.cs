@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.IO;
+using iTextSharp;
+
 namespace pdfSplitter
 {
     public partial class Form1 : Form
@@ -28,6 +31,11 @@ namespace pdfSplitter
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAgregarR_Click(object sender, EventArgs e)
         {
 
         }
