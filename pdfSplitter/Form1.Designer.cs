@@ -28,65 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblOrigen = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.btnBuscarOrigen = new System.Windows.Forms.Button();
-            this.txbOrigen = new System.Windows.Forms.TextBox();
-            this.lblDestino = new System.Windows.Forms.Label();
+            this.labl2 = new System.Windows.Forms.Label();
             this.btnBuscarDestino = new System.Windows.Forms.Button();
-            this.txbDestino = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblOrigen = new System.Windows.Forms.Label();
+            this.lblDestino = new System.Windows.Forms.Label();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lblNombreSalida = new System.Windows.Forms.Label();
+            this.lblEjemplo = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.btnDivPorRango = new System.Windows.Forms.Button();
-            this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
-            this.lstbxRango = new System.Windows.Forms.ListBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnQuitarR = new System.Windows.Forms.Button();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.btnDivPorGrupo = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
-            this.lstbxIgnorar = new System.Windows.Forms.ListBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnQuitarI = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.label10 = new System.Windows.Forms.Label();
-            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
-            this.label11 = new System.Windows.Forms.Label();
-            this.btnIgnorar = new System.Windows.Forms.Button();
-            this.btnAgregarR = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.btnAgregarR = new System.Windows.Forms.Button();
+            this.btnQuitarR = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lstbxRango = new System.Windows.Forms.ListBox();
+            this.upDnFinRango = new System.Windows.Forms.NumericUpDown();
+            this.upDnInicioRango = new System.Windows.Forms.NumericUpDown();
+            this.btnDivPorRango = new System.Windows.Forms.Button();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button6 = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.btnIgnorar = new System.Windows.Forms.Button();
+            this.btnQuitarI = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lstbxIgnorar = new System.Windows.Forms.ListBox();
+            this.upDnFinIgnorar = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            this.upDnInicioIgnorar = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnDivPorGrupo = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upDnFinRango)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upDnInicioRango)).BeginInit();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
-            this.tabControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.upDnFinIgnorar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upDnInicioIgnorar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // lblOrigen
+            // lbl1
             // 
-            this.lblOrigen.AutoSize = true;
-            this.lblOrigen.Location = new System.Drawing.Point(6, 21);
-            this.lblOrigen.Name = "lblOrigen";
-            this.lblOrigen.Size = new System.Drawing.Size(85, 13);
-            this.lblOrigen.TabIndex = 2;
-            this.lblOrigen.Text = "Origen de datos:";
+            this.lbl1.AutoSize = true;
+            this.lbl1.Location = new System.Drawing.Point(6, 21);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(85, 13);
+            this.lbl1.TabIndex = 2;
+            this.lbl1.Text = "Origen de datos:";
             // 
             // btnBuscarOrigen
             // 
@@ -98,21 +99,14 @@
             this.btnBuscarOrigen.UseVisualStyleBackColor = true;
             this.btnBuscarOrigen.Click += new System.EventHandler(this.btnBuscarOrigen_Click);
             // 
-            // txbOrigen
+            // labl2
             // 
-            this.txbOrigen.Location = new System.Drawing.Point(6, 38);
-            this.txbOrigen.Name = "txbOrigen";
-            this.txbOrigen.Size = new System.Drawing.Size(149, 20);
-            this.txbOrigen.TabIndex = 4;
-            // 
-            // lblDestino
-            // 
-            this.lblDestino.AutoSize = true;
-            this.lblDestino.Location = new System.Drawing.Point(248, 21);
-            this.lblDestino.Name = "lblDestino";
-            this.lblDestino.Size = new System.Drawing.Size(96, 13);
-            this.lblDestino.TabIndex = 2;
-            this.lblDestino.Text = "Carpeta de destino";
+            this.labl2.AutoSize = true;
+            this.labl2.Location = new System.Drawing.Point(248, 21);
+            this.labl2.Name = "labl2";
+            this.labl2.Size = new System.Drawing.Size(99, 13);
+            this.labl2.TabIndex = 2;
+            this.labl2.Text = "Carpeta de destino:";
             // 
             // btnBuscarDestino
             // 
@@ -124,19 +118,12 @@
             this.btnBuscarDestino.UseVisualStyleBackColor = true;
             this.btnBuscarDestino.Click += new System.EventHandler(this.btnBuscarDestino_Click);
             // 
-            // txbDestino
-            // 
-            this.txbDestino.Location = new System.Drawing.Point(251, 36);
-            this.txbDestino.Name = "txbDestino";
-            this.txbDestino.Size = new System.Drawing.Size(158, 20);
-            this.txbDestino.TabIndex = 4;
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lblOrigen);
-            this.groupBox2.Controls.Add(this.txbDestino);
+            this.groupBox2.Controls.Add(this.lbl1);
             this.groupBox2.Controls.Add(this.lblDestino);
-            this.groupBox2.Controls.Add(this.txbOrigen);
+            this.groupBox2.Controls.Add(this.labl2);
             this.groupBox2.Controls.Add(this.btnBuscarOrigen);
             this.groupBox2.Controls.Add(this.btnBuscarDestino);
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
@@ -146,28 +133,46 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos";
             // 
+            // lblOrigen
+            // 
+            this.lblOrigen.AutoSize = true;
+            this.lblOrigen.Location = new System.Drawing.Point(6, 41);
+            this.lblOrigen.Name = "lblOrigen";
+            this.lblOrigen.Size = new System.Drawing.Size(10, 13);
+            this.lblOrigen.TabIndex = 2;
+            this.lblOrigen.Text = "-";
+            // 
+            // lblDestino
+            // 
+            this.lblDestino.AutoSize = true;
+            this.lblDestino.Location = new System.Drawing.Point(248, 41);
+            this.lblDestino.Name = "lblDestino";
+            this.lblDestino.Size = new System.Drawing.Size(10, 13);
+            this.lblDestino.TabIndex = 2;
+            this.lblDestino.Text = "-";
+            // 
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog1";
             this.openFileDialog.Filter = "archivos PDF (.pdf)|*.pdf";
             // 
-            // label8
+            // lblNombreSalida
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(342, 124);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(92, 13);
-            this.label8.TabIndex = 0;
-            this.label8.Text = "Nombre de salida:";
+            this.lblNombreSalida.AutoSize = true;
+            this.lblNombreSalida.Location = new System.Drawing.Point(314, 110);
+            this.lblNombreSalida.Name = "lblNombreSalida";
+            this.lblNombreSalida.Size = new System.Drawing.Size(92, 13);
+            this.lblNombreSalida.TabIndex = 0;
+            this.lblNombreSalida.Text = "Nombre de salida:";
             // 
-            // label9
+            // lblEjemplo
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(342, 153);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(47, 13);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Ejemplo:";
+            this.lblEjemplo.AutoSize = true;
+            this.lblEjemplo.Location = new System.Drawing.Point(314, 139);
+            this.lblEjemplo.Name = "lblEjemplo";
+            this.lblEjemplo.Size = new System.Drawing.Size(47, 13);
+            this.lblEjemplo.TabIndex = 0;
+            this.lblEjemplo.Text = "Ejemplo:";
             // 
             // tabPage2
             // 
@@ -178,8 +183,8 @@
             this.tabPage2.Controls.Add(this.label6);
             this.tabPage2.Controls.Add(this.label7);
             this.tabPage2.Controls.Add(this.lstbxRango);
-            this.tabPage2.Controls.Add(this.numericUpDown4);
-            this.tabPage2.Controls.Add(this.numericUpDown5);
+            this.tabPage2.Controls.Add(this.upDnFinRango);
+            this.tabPage2.Controls.Add(this.upDnInicioRango);
             this.tabPage2.Controls.Add(this.btnDivPorRango);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -189,84 +194,33 @@
             this.tabPage2.Text = "Por rangos";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // btnDivPorRango
+            // button5
             // 
-            this.btnDivPorRango.Location = new System.Drawing.Point(527, 309);
-            this.btnDivPorRango.Name = "btnDivPorRango";
-            this.btnDivPorRango.Size = new System.Drawing.Size(75, 23);
-            this.btnDivPorRango.TabIndex = 0;
-            this.btnDivPorRango.Text = "Dividir";
-            this.btnDivPorRango.UseVisualStyleBackColor = true;
+            this.button5.Location = new System.Drawing.Point(92, 210);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "Dividir";
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown5
+            // btnAgregarR
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(69, 30);
-            this.numericUpDown5.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown5.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown5.Name = "numericUpDown5";
-            this.numericUpDown5.Size = new System.Drawing.Size(41, 20);
-            this.numericUpDown5.TabIndex = 8;
-            this.numericUpDown5.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
+            this.btnAgregarR.Location = new System.Drawing.Point(182, 27);
+            this.btnAgregarR.Name = "btnAgregarR";
+            this.btnAgregarR.Size = new System.Drawing.Size(56, 23);
+            this.btnAgregarR.TabIndex = 13;
+            this.btnAgregarR.Text = "Agregar";
+            this.btnAgregarR.UseVisualStyleBackColor = true;
+            this.btnAgregarR.Click += new System.EventHandler(this.btnAgregarR_Click);
             // 
-            // numericUpDown4
+            // btnQuitarR
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(135, 32);
-            this.numericUpDown4.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown4.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown4.Name = "numericUpDown4";
-            this.numericUpDown4.Size = new System.Drawing.Size(41, 20);
-            this.numericUpDown4.TabIndex = 7;
-            this.numericUpDown4.Value = new decimal(new int[] {
-            999,
-            0,
-            0,
-            0});
-            // 
-            // lstbxRango
-            // 
-            this.lstbxRango.FormattingEnabled = true;
-            this.lstbxRango.Location = new System.Drawing.Point(44, 56);
-            this.lstbxRango.Name = "lstbxRango";
-            this.lstbxRango.Size = new System.Drawing.Size(132, 134);
-            this.lstbxRango.TabIndex = 9;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(44, 14);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 13);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Agregar";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(44, 32);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(19, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "de";
+            this.btnQuitarR.Location = new System.Drawing.Point(182, 56);
+            this.btnQuitarR.Name = "btnQuitarR";
+            this.btnQuitarR.Size = new System.Drawing.Size(56, 23);
+            this.btnQuitarR.TabIndex = 13;
+            this.btnQuitarR.Text = "Quitar";
+            this.btnQuitarR.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -277,14 +231,84 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "a";
             // 
-            // btnQuitarR
+            // label6
             // 
-            this.btnQuitarR.Location = new System.Drawing.Point(182, 56);
-            this.btnQuitarR.Name = "btnQuitarR";
-            this.btnQuitarR.Size = new System.Drawing.Size(56, 23);
-            this.btnQuitarR.TabIndex = 13;
-            this.btnQuitarR.Text = "Quitar";
-            this.btnQuitarR.UseVisualStyleBackColor = true;
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(44, 32);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(19, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "de";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(44, 14);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(44, 13);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Agregar";
+            // 
+            // lstbxRango
+            // 
+            this.lstbxRango.FormattingEnabled = true;
+            this.lstbxRango.Location = new System.Drawing.Point(44, 56);
+            this.lstbxRango.Name = "lstbxRango";
+            this.lstbxRango.Size = new System.Drawing.Size(132, 134);
+            this.lstbxRango.TabIndex = 9;
+            // 
+            // upDnFinRango
+            // 
+            this.upDnFinRango.Location = new System.Drawing.Point(135, 32);
+            this.upDnFinRango.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.upDnFinRango.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.upDnFinRango.Name = "upDnFinRango";
+            this.upDnFinRango.Size = new System.Drawing.Size(41, 20);
+            this.upDnFinRango.TabIndex = 7;
+            this.upDnFinRango.Value = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
+            // 
+            // upDnInicioRango
+            // 
+            this.upDnInicioRango.Location = new System.Drawing.Point(69, 30);
+            this.upDnInicioRango.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.upDnInicioRango.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.upDnInicioRango.Name = "upDnInicioRango";
+            this.upDnInicioRango.Size = new System.Drawing.Size(41, 20);
+            this.upDnInicioRango.TabIndex = 8;
+            this.upDnInicioRango.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // btnDivPorRango
+            // 
+            this.btnDivPorRango.Location = new System.Drawing.Point(527, 309);
+            this.btnDivPorRango.Name = "btnDivPorRango";
+            this.btnDivPorRango.Size = new System.Drawing.Size(75, 23);
+            this.btnDivPorRango.TabIndex = 0;
+            this.btnDivPorRango.Text = "Dividir";
+            this.btnDivPorRango.UseVisualStyleBackColor = true;
             // 
             // tabPage1
             // 
@@ -297,9 +321,9 @@
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.lstbxIgnorar);
-            this.tabPage1.Controls.Add(this.numericUpDown3);
+            this.tabPage1.Controls.Add(this.upDnFinIgnorar);
             this.tabPage1.Controls.Add(this.numericUpDown6);
-            this.tabPage1.Controls.Add(this.numericUpDown2);
+            this.tabPage1.Controls.Add(this.upDnInicioIgnorar);
             this.tabPage1.Controls.Add(this.numericUpDown1);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.btnDivPorGrupo);
@@ -311,109 +335,41 @@
             this.tabPage1.Text = "Por grupos";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // btnDivPorGrupo
+            // button6
             // 
-            this.btnDivPorGrupo.Location = new System.Drawing.Point(527, 309);
-            this.btnDivPorGrupo.Name = "btnDivPorGrupo";
-            this.btnDivPorGrupo.Size = new System.Drawing.Size(75, 23);
-            this.btnDivPorGrupo.TabIndex = 1;
-            this.btnDivPorGrupo.Text = "Dividir";
-            this.btnDivPorGrupo.UseVisualStyleBackColor = true;
+            this.button6.Location = new System.Drawing.Point(92, 210);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Dividir";
+            this.button6.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // label11
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(314, 38);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "grupos de";
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(204, 27);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(44, 13);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "paginas";
             // 
-            // numericUpDown1
+            // label10
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(317, 54);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(54, 20);
-            this.numericUpDown1.TabIndex = 3;
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(39, 22);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(112, 13);
+            this.label10.TabIndex = 7;
+            this.label10.Text = "Separar por grupos de";
             // 
-            // numericUpDown2
+            // btnIgnorar
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(72, 77);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(41, 20);
-            this.numericUpDown2.TabIndex = 3;
-            this.numericUpDown2.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // numericUpDown3
-            // 
-            this.numericUpDown3.Location = new System.Drawing.Point(138, 79);
-            this.numericUpDown3.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(41, 20);
-            this.numericUpDown3.TabIndex = 3;
-            this.numericUpDown3.Value = new decimal(new int[] {
-            999,
-            0,
-            0,
-            0});
-            // 
-            // lstbxIgnorar
-            // 
-            this.lstbxIgnorar.FormattingEnabled = true;
-            this.lstbxIgnorar.Location = new System.Drawing.Point(47, 103);
-            this.lstbxIgnorar.Name = "lstbxIgnorar";
-            this.lstbxIgnorar.Size = new System.Drawing.Size(132, 30);
-            this.lstbxIgnorar.TabIndex = 4;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 61);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(40, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Ignorar";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(47, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(19, 13);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "de";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(119, 79);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(13, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "a";
+            this.btnIgnorar.Location = new System.Drawing.Point(185, 73);
+            this.btnIgnorar.Name = "btnIgnorar";
+            this.btnIgnorar.Size = new System.Drawing.Size(52, 28);
+            this.btnIgnorar.TabIndex = 6;
+            this.btnIgnorar.Text = "Ignorar";
+            this.btnIgnorar.UseVisualStyleBackColor = true;
             // 
             // btnQuitarI
             // 
@@ -424,24 +380,62 @@
             this.btnQuitarI.Text = "Quitar";
             this.btnQuitarI.UseVisualStyleBackColor = true;
             // 
-            // tabControl1
+            // label4
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(12, 88);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(285, 265);
-            this.tabControl1.TabIndex = 6;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(119, 79);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(13, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "a";
             // 
-            // label10
+            // label2
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(39, 22);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(112, 13);
-            this.label10.TabIndex = 7;
-            this.label10.Text = "Separar por grupos de";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(47, 79);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(19, 13);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "de";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(47, 61);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Ignorar";
+            // 
+            // lstbxIgnorar
+            // 
+            this.lstbxIgnorar.FormattingEnabled = true;
+            this.lstbxIgnorar.Location = new System.Drawing.Point(47, 103);
+            this.lstbxIgnorar.Name = "lstbxIgnorar";
+            this.lstbxIgnorar.Size = new System.Drawing.Size(132, 30);
+            this.lstbxIgnorar.TabIndex = 4;
+            // 
+            // upDnFinIgnorar
+            // 
+            this.upDnFinIgnorar.Location = new System.Drawing.Point(138, 79);
+            this.upDnFinIgnorar.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.upDnFinIgnorar.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.upDnFinIgnorar.Name = "upDnFinIgnorar";
+            this.upDnFinIgnorar.Size = new System.Drawing.Size(41, 20);
+            this.upDnFinIgnorar.TabIndex = 3;
+            this.upDnFinIgnorar.Value = new decimal(new int[] {
+            999,
+            0,
+            0,
+            0});
             // 
             // numericUpDown6
             // 
@@ -465,59 +459,80 @@
             0,
             0});
             // 
-            // label11
+            // upDnInicioIgnorar
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(204, 27);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 13);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "paginas";
+            this.upDnInicioIgnorar.Location = new System.Drawing.Point(72, 77);
+            this.upDnInicioIgnorar.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.upDnInicioIgnorar.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.upDnInicioIgnorar.Name = "upDnInicioIgnorar";
+            this.upDnInicioIgnorar.Size = new System.Drawing.Size(41, 20);
+            this.upDnInicioIgnorar.TabIndex = 3;
+            this.upDnInicioIgnorar.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
-            // btnIgnorar
+            // numericUpDown1
             // 
-            this.btnIgnorar.Location = new System.Drawing.Point(185, 73);
-            this.btnIgnorar.Name = "btnIgnorar";
-            this.btnIgnorar.Size = new System.Drawing.Size(52, 28);
-            this.btnIgnorar.TabIndex = 6;
-            this.btnIgnorar.Text = "Ignorar";
-            this.btnIgnorar.UseVisualStyleBackColor = true;
+            this.numericUpDown1.Location = new System.Drawing.Point(317, 54);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(54, 20);
+            this.numericUpDown1.TabIndex = 3;
             // 
-            // btnAgregarR
+            // label3
             // 
-            this.btnAgregarR.Location = new System.Drawing.Point(182, 27);
-            this.btnAgregarR.Name = "btnAgregarR";
-            this.btnAgregarR.Size = new System.Drawing.Size(56, 23);
-            this.btnAgregarR.TabIndex = 13;
-            this.btnAgregarR.Text = "Agregar";
-            this.btnAgregarR.UseVisualStyleBackColor = true;
-            this.btnAgregarR.Click += new System.EventHandler(this.btnAgregarR_Click);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(314, 38);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(54, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "grupos de";
             // 
-            // button5
+            // btnDivPorGrupo
             // 
-            this.button5.Location = new System.Drawing.Point(92, 210);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 14;
-            this.button5.Text = "Dividir";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnDivPorGrupo.Location = new System.Drawing.Point(527, 309);
+            this.btnDivPorGrupo.Name = "btnDivPorGrupo";
+            this.btnDivPorGrupo.Size = new System.Drawing.Size(75, 23);
+            this.btnDivPorGrupo.TabIndex = 1;
+            this.btnDivPorGrupo.Text = "Dividir";
+            this.btnDivPorGrupo.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // tabControl1
             // 
-            this.button6.Location = new System.Drawing.Point(92, 210);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 15;
-            this.button6.Text = "Dividir";
-            this.button6.UseVisualStyleBackColor = true;
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Location = new System.Drawing.Point(12, 88);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(285, 265);
+            this.tabControl1.TabIndex = 6;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(367, 139);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(47, 13);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Ejemplo:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 359);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
+            this.Controls.Add(this.lblEjemplo);
+            this.Controls.Add(this.lblNombreSalida);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
@@ -527,40 +542,38 @@
             this.groupBox2.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upDnFinRango)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upDnInicioRango)).EndInit();
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
-            this.tabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.upDnFinIgnorar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.upDnInicioIgnorar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Label lblOrigen;
+        private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Button btnBuscarOrigen;
-        private System.Windows.Forms.TextBox txbOrigen;
-        private System.Windows.Forms.Label lblDestino;
+        private System.Windows.Forms.Label labl2;
         private System.Windows.Forms.Button btnBuscarDestino;
-        private System.Windows.Forms.TextBox txbDestino;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog;
         private System.Windows.Forms.OpenFileDialog openFileDialog;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label lblNombreSalida;
+        private System.Windows.Forms.Label lblEjemplo;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.Button btnQuitarR;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ListBox lstbxRango;
-        private System.Windows.Forms.NumericUpDown numericUpDown4;
-        private System.Windows.Forms.NumericUpDown numericUpDown5;
+        private System.Windows.Forms.NumericUpDown upDnFinRango;
+        private System.Windows.Forms.NumericUpDown upDnInicioRango;
         private System.Windows.Forms.Button btnDivPorRango;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Label label11;
@@ -571,9 +584,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox lstbxIgnorar;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown upDnFinIgnorar;
         private System.Windows.Forms.NumericUpDown numericUpDown6;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.NumericUpDown upDnInicioIgnorar;
         private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnDivPorGrupo;
@@ -581,6 +594,9 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btnAgregarR;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblOrigen;
+        private System.Windows.Forms.Label lblDestino;
     }
 }
 

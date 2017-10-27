@@ -8,3 +8,15 @@ C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.Pro
 C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.csproj.GenerateResource.Cache
 C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.exe
 C:\Users\20137306\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.pdb
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\bin\Debug\pdfSplitter.exe.config
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\bin\Debug\pdfSplitter.exe
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\bin\Debug\pdfSplitter.pdb
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\bin\Debug\itextsharp.dll
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\bin\Debug\itextsharp.xml
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.csprojResolveAssemblyReference.cache
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.Form1.resources
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.Properties.Resources.resources
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.csproj.GenerateResource.Cache
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.csproj.CoreCompileInputs.cache
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.exe
+C:\Users\javier\Source\Repos\pdfSplitter\pdfSplitter\obj\Debug\pdfSplitter.pdb
